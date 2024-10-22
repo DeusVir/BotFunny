@@ -49,29 +49,29 @@ async def process_birthday(message: types.Message, state: FSMContext):
 # Функция для определения знака зодиака
 def get_zodiac_sign(day, month):
     if (month == 1 and day >= 21) or (month == 2 and day <= 19):
-        return ["Водолей ", "Aquarius"]
+        return ["Водолей ♒", "Aquarius"]
     elif (month == 2 and day >= 20) or (month == 3 and day <= 20):
-        return ["Рыбы ", "Pisces"]
+        return ["Рыбы ♓", "Pisces"]
     elif (month == 3 and day >= 21) or (month == 4 and day <= 20):
-        return ["Овен ", "Aries"]
+        return ["Овен ♈", "Aries"]
     elif (month == 4 and day >= 21) or (month == 5 and day <= 20):
-        return ["Телец  ", "Taurus"]
+        return ["Телец ♉ ", "Taurus"]
     elif (month == 5 and day >= 21) or (month == 6 and day <= 21):
-        return ["Близнецы ", "Gemini"]
+        return ["Близнецы ♊", "Gemini"]
     elif (month == 6 and day >= 22) or (month == 7 and day <= 22):
-        return ["Рак ", "Cancer"]
+        return ["Рак ♋", "Cancer"]
     elif (month == 7 and day >= 23) or (month == 8 and day <= 23):
-        return ["Лев ", "Leo"]
+        return ["Лев ♌", "Leo"]
     elif (month == 8 and day >= 24) or (month == 9 and day <= 23):
-        return ["Дева ", "Virgo"]
+        return ["Дева ♍", "Virgo"]
     elif (month == 9 and day >= 24) or (month == 10 and day <= 23):
-        return ["Весы ", "Libra"]
+        return ["Весы ♎", "Libra"]
     elif (month == 10 and day >= 24) or (month == 11 and day <= 22):
-        return ["Скорпион ", "Scorpio"]
+        return ["Скорпион ♏", "Scorpio"]
     elif (month == 11 and day >= 23) or (month == 12 and day <= 21):
-        return ["Стрелец ", "sagittarius"]
+        return ["Стрелец ♐", "sagittarius"]
     elif (month == 12 and day >= 22) or (month == 1 and day <= 20):
-        return ["Козерог ", "Capricorn"]
+        return ["Козерог ♑", "Capricorn"]
 
 
 # Функция для получения гороскопа
