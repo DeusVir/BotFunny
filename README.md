@@ -49,6 +49,8 @@ Git – стандарт индустрии, позволяет эффектив
 
 ![image](https://github.com/user-attachments/assets/e24647b3-d1e1-43ad-a8fe-50efe904d072)
 
+![image](https://github.com/user-attachments/assets/65ebdc89-2c23-4995-9e91-0989a36ea891)
+
 
 
 
